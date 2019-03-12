@@ -103,15 +103,12 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         }
 
         override fun onStatusChanged(provider: String?, status: Int, extras: Bundle?) {
-            TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
         }
 
         override fun onProviderEnabled(provider: String?) {
-            TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
         }
 
         override fun onProviderDisabled(provider: String?) {
-            TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
         }
 
     }
@@ -131,7 +128,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
                                 .position(sydney)
                                 .title("Me")
                                 .snippet("Here is my location")
-                                .icon(BitmapDescriptorFactory.fromResource(R.drawable.mariotwo))
+                                .icon(BitmapDescriptorFactory.fromResource(R.drawable.mario))
                         )
                         mMap!!.moveCamera(CameraUpdateFactory.newLatLngZoom(sydney, 8f))
                     }
